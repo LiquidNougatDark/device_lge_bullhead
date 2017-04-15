@@ -76,24 +76,6 @@ const char SENSOR_STRING_TYPE_DOUBLE_TAP[] =
 
 extern const sensor_t kSensorList[] = {
     {
-        "RPR0521 Proximity Sensor",
-        "Rohm",
-        kVersion,
-        COMMS_SENSOR_PROXIMITY,
-        SENSOR_TYPE_PROXIMITY,
-        5.0f,                                          // maxRange (cm)
-        1.0f,                                          // resolution (cm)
-        0.0f,                                          // XXX power
-        (int32_t)(1.0E6f / kMaxSampleRateHzProximity), // minDelay
-        300,                                           // XXX fifoReservedEventCount
-        kMaxOneAxisEventCount,                         // XXX fifoMaxEventCount
-        SENSOR_STRING_TYPE_PROXIMITY,
-        "",                                            // requiredPermission
-        (long)(1.0E6f / kMinSampleRateHzProximity),    // maxDelay
-        SENSOR_FLAG_WAKE_UP | SENSOR_FLAG_ON_CHANGE_MODE,
-        { NULL, NULL }
-    },
-    {
         "RPR0521 Light Sensor",
         "Rohm",
         kVersion,
