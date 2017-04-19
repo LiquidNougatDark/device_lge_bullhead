@@ -37,6 +37,8 @@ TARGET_KERNEL_CONFIG := phasma_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 # Optimizations
+TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+
 STRICT_ALIASING := true
 POLLY_OPTS := true
 GRAPHITE_OPTS := true
