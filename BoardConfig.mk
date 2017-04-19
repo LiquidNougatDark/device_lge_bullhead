@@ -148,6 +148,9 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 #NFC
 NXP_CHIP_TYPE := 2
 
