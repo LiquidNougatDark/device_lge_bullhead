@@ -144,6 +144,9 @@ TARGET_RECOVERY_UI_LIB := librecovery_ui_nanohub
 # Once camera module can run in the native mode of the system (either
 # 32-bit or 64-bit), the following line should be deleted
 BOARD_QTI_CAMERA_32BIT_ONLY := true
+ 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
 
 #NFC
 NXP_CHIP_TYPE := 2
